@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../static/js_and_css/login.css">
+    <link rel="stylesheet" th:href="@{js_and_css/login.css}" />
+</head>
+<body>
+    <div>   
+        <h1>Video hosting</h1>
+        <form action="">
+            Придумайте логин и пароль:
+            <input type="text" name="login" id="login" placeholder="Логин">
+            <input type="password" name="password" id="password" placeholder="Пароль">
+            <input type="password" name="password" id="password1" placeholder="Повтарите пароль">
+            <button type="submit">Войти</button>
+            <a href="./login.html">Нажмите сюда, <br> если есть аккаунт.</a>
+        </form>
+    </div> 
+</body>
+</html>
