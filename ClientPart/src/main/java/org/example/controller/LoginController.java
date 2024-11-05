@@ -16,4 +16,5 @@ public class LoginController {
     public String getRegistration(Model model) {
         return "regist";
     }
+    // comment
 }
