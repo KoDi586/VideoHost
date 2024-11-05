@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="menu">
-    <table>
+    <table border="1">
         <tr th:each="item : ${list}">
             <td>
                 <img th:src="@{/photo/{photoId}(photoId=${item.photoId})}" alt="">

@@ -19,7 +19,7 @@ body{
     margin-left: 30px;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
-    
+
 }
 
 .headeres-h1{
@@ -50,6 +50,7 @@ body{
 .vid{
     display: grid;
     grid-template-columns: auto auto auto;
+    width: 100%;
 }
 
 .pos{
